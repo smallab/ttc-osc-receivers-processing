@@ -5,6 +5,6 @@ It works with [Processing 3.3.4](https://processing.org/download/ "download Proc
 
 ![OSC Blobs communicating with Processing sample on Mac](https://tapioca.toys/assets/img/tapioca-toys-osc-blobs-01.jpg "OSC Blobs communicating with Processing sample on Mac")
 
-Receive everything on the `14041` port number, use `/tapiocatoys/blob` as message pattern and check for a `iiiii` typetag. The first integer is the id of the blob, and the four others are its position vector (x,y) as well as the bounding box dimensions (w,h).
+Receive everything on the `14041` port number, use `/tapiocatoys/blob` as message pattern and check for a `iiiii` typetag. The first integer is the id of the blob, and the four others are its cartesian position (x,y) based on your phone's resolution as well as the bounding box dimensions (w,h).
 
 Check out a demo video at https://vimeo.com/smallab/291807587.
