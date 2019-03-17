@@ -5,6 +5,9 @@ Here you'll find OSC Blobs and OSC State receiving Processing sketches specially
 
 They works with [Processing 3.3.4](https://processing.org/download/ "download Processing") and later, and its [OSC library](http://www.sojamo.de/libraries/oscp5).
 
+Check out a demo video at https://vimeo.com/smallab/291807587.
+
+
 ## See more README's in the sketches' folders
 ![OSC Blobs communicating with Particles Processing sample on Mac](https://www.smallab.org/sp-content/files/18/file5c8eb5063e7d5.png "OSC Blobs communicating with Particles Processing sample on Mac")
 ![OSC State communicating with Basic Processing sample on Mac](https://www.smallab.org/sp-content/files/16/file5c8ea832076ba.png "OSC State communicating with Processing sample on Mac")
