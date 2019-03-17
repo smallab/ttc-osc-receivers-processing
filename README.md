@@ -5,4 +5,6 @@ Here you'll find OSC Blobs and OSC State receiving Processing sketches specially
 
 They works with [Processing 3.3.4](https://processing.org/download/ "download Processing") and later, and its [OSC library](http://www.sojamo.de/libraries/oscp5).
 
-## See more README's in the sketches' folders.
+## See more README's in the sketches' folders
+
+![OSC Blobs communicating with Processing sample on Mac](https://tapioca.toys/assets/img/tapioca-toys-osc-blobs-02.png "OSC Blobs communicating with Processing sample on Mac")
