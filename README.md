@@ -8,3 +8,4 @@ They works with [Processing 3.3.4](https://processing.org/download/ "download Pr
 ## See more README's in the sketches' folders
 
 ![OSC Blobs communicating with Processing sample on Mac](https://tapioca.toys/assets/img/tapioca-toys-osc-blobs-02.png "OSC Blobs communicating with Processing sample on Mac")
+![OSC State communicating with Processing sample on Mac](https://www.smallab.org/sp-content/files/16/file5c8ea832076ba.png "OSC State communicating with Processing sample on Mac")
