@@ -1,6 +1,6 @@
 /**
  *  OSC State Receiver
- *  https://github.com/smallab/TTC_OSCStateReceiver
+ *  https://github.com/smallab/ttc-osc-receivers-processing
  *
  *  Created for Tapioca Toys Cardboard
  *  https://tapioca.toys/cardboard

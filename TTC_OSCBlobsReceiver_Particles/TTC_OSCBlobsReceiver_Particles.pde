@@ -1,5 +1,6 @@
 /**
- *  OSC Blobs Receiver
+ *  OSC Blobs Receiver – Particles
+ *  https://github.com/smallab/ttc-osc-receivers-processing
  *
  *  Created for Tapioca Toys Cardboard
  *  https://tapioca.toys/cardboard

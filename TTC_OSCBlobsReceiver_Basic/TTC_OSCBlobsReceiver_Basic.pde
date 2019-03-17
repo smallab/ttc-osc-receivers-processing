@@ -1,6 +1,6 @@
 /**
- *  OSC Blobs Receiver
- *  https://github.com/smallab/TTC_OSCBlobsReceiver
+ *  OSC Blobs Receiver – Basic
+ *  https://github.com/smallab/ttc-osc-receivers-processing
  *
  *  Created for Tapioca Toys Cardboard
  *  https://tapioca.toys/cardboard
@@ -15,7 +15,7 @@ import netP5.*;
 
 OscP5 oscP5;
 int last_id, latency, concurrent_amount;
-Blob[] blobs;
+OSCBlob[] blobs;
 
 void setup() {
   size(640, 320);
@@ -27,7 +27,7 @@ void setup() {
   last_id = 0;
   latency = 5;
   concurrent_amount = 1024;
-  blobs = new Blob[concurrent_amount];
+  blobs = new OSCBlob[concurrent_amount];
 }
 
 void draw() {
@@ -36,7 +36,7 @@ void draw() {
   // Using an enhanced loop to iterate over each entry
   for (int i=0; i<blobs.length-1; i++)
   {
-    Blob b = (Blob)blobs[i];
+    OSCBlob b = (OSCBlob)blobs[i];
     if (b != null && frameCount <= b.last_update+latency) {
       noStroke();
       fill(255, 230);
@@ -58,12 +58,12 @@ void oscEvent(OscMessage theOscMessage) {
     {
       if (theOscMessage.get(0).intValue() > last_id) {
         // new blob
-        blobs[theOscMessage.get(0).intValue() % concurrent_amount] = new Blob(theOscMessage.get(0).intValue(), theOscMessage.get(1).intValue(), theOscMessage.get(2).intValue(), theOscMessage.get(3).intValue(), theOscMessage.get(4).intValue(), frameCount); 
+        blobs[theOscMessage.get(0).intValue() % concurrent_amount] = new OSCBlob(theOscMessage.get(0).intValue(), theOscMessage.get(1).intValue(), theOscMessage.get(2).intValue(), theOscMessage.get(3).intValue(), theOscMessage.get(4).intValue(), frameCount); 
         // save max id value up until now
         last_id = theOscMessage.get(0).intValue();
       } else {
         // updating existing blob
-        Blob b = blobs[theOscMessage.get(0).intValue() % concurrent_amount];
+        OSCBlob b = blobs[theOscMessage.get(0).intValue() % concurrent_amount];
         b.x = theOscMessage.get(1).intValue();
         b.y = theOscMessage.get(2).intValue();
         b.w = theOscMessage.get(3).intValue();
