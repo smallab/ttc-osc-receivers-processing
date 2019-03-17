@@ -9,7 +9,7 @@ Check out a **demo video** of the Blobs basic sketch at https://vimeo.com/smalla
 
 
 ## See more README's in the sketches' folders
-OSC Blobs communicating with Particles Processing sample on Mac:
+[Blobs Particles Processing sample](https://github.com/smallab/ttc-osc-receivers-processing/tree/master/TTC_OSCReceiver_Blobs_particles) on Mac:
 ![OSC Blobs communicating with Particles Processing sample on Mac](https://www.smallab.org/sp-content/files/18/file5c8eb5063e7d5.png "OSC Blobs communicating with Particles Processing sample on Mac")
-OSC State communicating with Processing sample on Mac:
+[Blobs Basic Processing sample](https://github.com/smallab/ttc-osc-receivers-processing/tree/master/TTC_OSCReceiver_State_basic) on Mac:
 ![OSC State communicating with Basic Processing sample on Mac](https://www.smallab.org/sp-content/files/16/file5c8ea832076ba.png "OSC State communicating with Processing sample on Mac")
