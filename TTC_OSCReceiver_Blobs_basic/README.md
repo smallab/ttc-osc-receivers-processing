@@ -1,6 +1,3 @@
-# Tapioca Toys Cardboard OSC Blobs Receiver
-This repository is part of the Tapioca Toys Cardboard project. Learn more at https://tapioca.toys/cardboard.
-
 ## An OSC Blobs receiving Processing sample
 A Java-Processing sketch sample specially built for receiving blob data in the shape of OpenSoundControl messages coming from the [free OSC Blobs iPhone app](https://itunes.apple.com/us/app/osc-blobs-tapioca-toys/id1436978667?mt=8) that's available on the App Store.
 
