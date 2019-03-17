@@ -5,4 +5,4 @@ Here you'll find OSC Blobs and OSC State receiving Processing sketches specially
 
 They works with [Processing 3.3.4](https://processing.org/download/ "download Processing") and later, and its [OSC library](http://www.sojamo.de/libraries/oscp5).
 
-## See more in their respective folders.
+## See more README's in their respective folders.
