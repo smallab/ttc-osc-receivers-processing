@@ -67,13 +67,10 @@ void draw() {
       fill(b.gray);
       int x = (i%matrix_width);
       int y = floor(i/(float)matrix_width);
-      //rect(x*width/(float)matrix_width, y*height/(float)matrix_height, width/(float)matrix_width, height/(float)matrix_height, 4.0);
       flowfield.setAndDisplay(x, y, b.gray);
     }
   }
 
-  // Display the flowfield in "debug" mode
-  //flowfield.display();
   // Tell all the vehicles to follow the flow field
   for (Vehicle v : vehicles) {
     v.follow(flowfield);
