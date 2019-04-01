@@ -14,13 +14,13 @@ class Vehicle {
   float maxforce;    // Maximum steering force
   float maxspeed;    // Maximum speed
 
-    Vehicle(PVector l, float ms, float mf) {
+  Vehicle(PVector l, float ms, float mf) {
     position = l.get();
     r = 5.0;
     maxspeed = ms;
     maxforce = mf;
-    acceleration = new PVector(0,0);
-    velocity = new PVector(0,0);
+    acceleration = new PVector(0, 0);
+    velocity = new PVector(0, 0);
   }
 
   public void run() {
@@ -62,10 +62,10 @@ class Vehicle {
   void display() {
     // Draw a triangle rotated in the direction of velocity
     float theta = velocity.heading2D() + radians(90);
-    fill(0,255,255,90);
-    stroke(255,100);
+    fill(0, 255, 255, 90);
+    stroke(255, 100);
     pushMatrix();
-    translate(position.x,position.y);
+    translate(position.x, position.y);
     rotate(theta);
     beginShape(TRIANGLES);
     vertex(0, -r*2);
