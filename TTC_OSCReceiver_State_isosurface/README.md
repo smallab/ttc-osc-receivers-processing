@@ -1,4 +1,4 @@
-## An OSC State receiving Processing sample that generates an iso surface
+## An OSC State receiving sample based on Processing that generates an iso surface
 
 A Java-Processing sketch sample specially built for receiving state data (understand "surface data") in the shape of OpenSoundControl messages coming from the [free OSC State iPhone app](https://itunes.apple.com/us/app/osc-state-tapioca-toys/id1456542260?mt=8) that's available on the App Store.
 
