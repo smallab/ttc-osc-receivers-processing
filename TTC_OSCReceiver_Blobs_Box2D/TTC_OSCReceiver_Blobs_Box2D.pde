@@ -1,5 +1,5 @@
 /**
- *  OSC Blobs Receiver – Soot
+ *  OSC Blobs Receiver – Box2D demo
  *
  *  Created for Tapioca Toys Cardboard
  *  https://tapioca.toys/cardboard
@@ -22,9 +22,9 @@ int last_id, latency, concurrent_amount;
 OSCBlob[] blobs;
 
 float size = 30;
-wanderingSoot soot;
-sootSystem sSystem = new sootSystem();
-ArrayList<wanderingSoot> soots = new ArrayList<wanderingSoot>();
+WanderingSoot soot;
+SootSystem sSystem = new SootSystem();
+ArrayList<WanderingSoot> soots = new ArrayList<WanderingSoot>();
 ArrayList<Drop> drops = new ArrayList<Drop>();
 
 Boolean autho = false;

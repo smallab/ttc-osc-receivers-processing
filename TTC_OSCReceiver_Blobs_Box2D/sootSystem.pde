@@ -1,14 +1,14 @@
-class sootSystem {
-  //create several indicidual wandering soots
+class SootSystem {
+  //create several individual wandering soots
   
   float speedIndex;
   float[] speeds = { -5, 10, -15 };
-  sootSystem() {
-  }
+  
+  SootSystem() {}
   
   void addParticle() { 
     // Creating new soot
-    wanderingSoot soot = new wanderingSoot(speedIndex);
+    WanderingSoot soot = new WanderingSoot(speedIndex);
     soots.add(soot);
   }
   

@@ -1,4 +1,4 @@
-class wanderingSoot {
+class WanderingSoot {
   // Single wandering soot
   
   float angleCos = 1.0;
@@ -12,7 +12,7 @@ class wanderingSoot {
   
   Body noiraudeBody;
   
-  wanderingSoot(float speedIndex) {
+  WanderingSoot(float speedIndex) {
     //Defining Body at random location and random speed
     Vec2 location = box2d.coordPixelsToWorld((random(width-50)),(random(height-50))); 
     
