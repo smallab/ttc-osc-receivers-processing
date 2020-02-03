@@ -5,7 +5,7 @@ A Java-Processing sketch sample specially built for receiving state data (unders
 
 It works with [Processing 3.3.4](https://processing.org/download/ "download Processing") and later, and its [OSC library](http://www.sojamo.de/libraries/oscp5).
 
-Check in out in action: https://vimeo.com/326081120.
+(VIDEO) Check in out in action: https://vimeo.com/326081120.
 
 ![OSC State communicating with Processing sample on Mac](https://tapioca.toys/assets/img/tapioca-toys-osc-processing-03.jpg?v=2 "OSC State communicating with Processing sample on Mac")
 
