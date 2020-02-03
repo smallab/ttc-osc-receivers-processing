@@ -9,9 +9,6 @@ Check out a **video demo** of the Blobs basic sketch at https://vimeo.com/291807
 
 
 ## See more README's in their respective sketches' folders
-[Blobs Flocking sample](https://github.com/smallab/ttc-osc-receivers-processing/tree/master/TTC_OSCReceiver_State_flowfield) on Mac:
-![OSC State communicating with Processing sample on Mac](https://tapioca.toys/assets/img/tapioca-toys-osc-processing-04-flocking.jpg "OSC State communicating with Processing sample on Mac")
-
 [State FlowField sample](https://github.com/smallab/ttc-osc-receivers-processing/tree/master/TTC_OSCReceiver_State_flowfield) on Mac:
 ![OSC State communicating with Processing sample on Mac](https://tapioca.toys/assets/img/tapioca-toys-osc-processing-03.jpg?v=2 "OSC State communicating with Processing sample on Mac")
 
