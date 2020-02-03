@@ -5,6 +5,8 @@ A Java-Processing sketch sample specially built for receiving state data (unders
 
 It works with [Processing 3.3.4](https://processing.org/download/ "download Processing") and later, and its [OSC library](http://www.sojamo.de/libraries/oscp5).
 
+Check in out in action: https://vimeo.com/326081120.
+
 ![OSC State communicating with Processing sample on Mac](https://tapioca.toys/assets/img/tapioca-toys-osc-processing-03.jpg?v=2 "OSC State communicating with Processing sample on Mac")
 
 Receive everything on the `14041` port number, use `/tapiocatoys/state` as message pattern and check for a `ii` typetag. The first integer is the id of one of the 32 by 24 "osc pixels", and the other integer is its grayscale value ranging from 0 to 255.
