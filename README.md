@@ -5,7 +5,7 @@ Here you'll find OSC Blobs and OSC State receiving Processing sketches specially
 
 They work with [Processing 3.3.4](https://processing.org/download/ "download Processing") and later, and its [OSC library](http://www.sojamo.de/libraries/oscp5).
 
-Check out a **video demo** of the Blobs basic sketch at https://vimeo.com/smallab/291807587.
+Check out a **video demo** of the Blobs basic sketch at https://vimeo.com/291807587 and another of the Blobs flocking sketch at https://vimeo.com/388984928.
 
 
 ## See more README's in their respective sketches' folders
